@@ -9,6 +9,7 @@ on:
     branches: [ "main" ]
     paths-ignore:
       - debian/changelog
+  workflow_dispatch: # enable manual triggering
 
 jobs:
   build-deb-package:
