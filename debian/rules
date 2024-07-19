@@ -8,5 +8,5 @@ override_dh_auto_build:
 	npm run build-bundle
 
 override_dh_auto_install:
-	install -d debian/bbb-plugin-template/var/www/bigbluebutton-default/assets/plugins/bbb-plugin-template
-	cp -r dist/* debian/bbb-plugin-template/var/www/bigbluebutton-default/assets/plugins/bbb-plugin-template
+	install -d debian/bbb-plugin-decrease-volume-on-speak/var/www/bigbluebutton-default/assets/plugins/bbb-plugin-decrease-volume-on-speak
+	cp -r dist/* debian/bbb-plugin-decrease-volume-on-speak/var/www/bigbluebutton-default/assets/plugins/bbb-plugin-decrease-volume-on-speak
