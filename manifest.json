@@ -1,0 +1,6 @@
+{
+  "requiredSdkVersion": "~0.0.59",
+  "name": "DecreaseVolumeOnSpeak",
+  "javascriptEntrypointUrl": "DecreaseVolumeOnSpeak.js",
+  "localesBaseUrl": "https://cdn.domain.com/pluginabc/"
+}
